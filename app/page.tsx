@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Calendar, Users, BookOpen, Award, GraduationCap, Heart } from "lucide-react"
@@ -7,21 +8,47 @@ export default function HomePage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-primary/5 to-background py-20 md:py-32">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center space-y-6">
-            <h1 className="font-bold text-4xl md:text-6xl text-balance">Welcome to Nuru Angavu Primary School</h1>
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed text-pretty">
-              Nurturing excellence and character in every child through quality education, holistic development, and a
-              supportive learning environment.
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-              <Button size="lg" asChild>
-                <Link href="/about">Learn More About Us</Link>
-              </Button>
-              <Button size="lg" variant="outline" asChild>
-                <Link href="/contact">Get In Touch</Link>
-              </Button>
+      <section className="relative overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 -z-10">
+          <Image
+            src="/placeholder.svg?height=800&width=1600"
+            alt="Happy students learning"
+            fill
+            className="object-cover opacity-20"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-background/80 to-background" />
+        </div>
+
+        <div className="container mx-auto px-4 py-20 md:py-32">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Hero Content */}
+            <div className="space-y-6">
+              <h1 className="font-bold text-4xl md:text-6xl text-balance">Welcome to Nuru Angavu Primary School</h1>
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed text-pretty">
+                Nurturing excellence and character in every child through quality education, holistic development, and a
+                supportive learning environment.
+              </p>
+              <div className="flex flex-col sm:flex-row items-start gap-4 pt-4">
+                <Button size="lg" asChild>
+                  <Link href="/about">Learn More About Us</Link>
+                </Button>
+                <Button size="lg" variant="outline" asChild>
+                  <Link href="/contact">Get In Touch</Link>
+                </Button>
+              </div>
+            </div>
+
+            {/* Hero Image */}
+            <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+              <Image
+                src="/placeholder.svg?height=500&width=600"
+                alt="Happy Nuru Angavu students"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
         </div>
