@@ -43,7 +43,7 @@ export default function HomePage() {
             {/* Hero Image */}
             <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/images/design-mode/close-up-thoughtful-little-girl-holding-highlighter_1098-3875.jpg"
                 alt="Happy Nuru Angavu students"
                 fill
                 className="object-cover"
