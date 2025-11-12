@@ -25,7 +25,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Hero Content */}
             <div className="space-y-6">
-              <h1 className="font-bold text-4xl md:text-6xl text-balance">Welcome to Nuru Angavu Primary School</h1>
+              <h1 className="font-bold text-4xl md:text-6xl text-balance">Welcome to Freedom and Victory Primary School</h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed text-pretty">
                 Nurturing excellence and character in every child through quality education, holistic development, and a
                 supportive learning environment.
@@ -44,7 +44,7 @@ export default function HomePage() {
             <div className="relative h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/design-mode/close-up-thoughtful-little-girl-holding-highlighter_1098-3875.jpg"
-                alt="Happy Nuru Angavu students"
+                alt="Happy Freedom and Victory students"
                 fill
                 className="object-cover"
                 priority
@@ -58,7 +58,7 @@ export default function HomePage() {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="font-bold text-3xl md:text-4xl mb-4 text-balance">Why Choose Nuru Angavu?</h2>
+            <h2 className="font-bold text-3xl md:text-4xl mb-4 text-balance">Why Choose Freedom and Victory?</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               We provide a comprehensive education that prepares students for success in academics and life.
             </p>
@@ -173,7 +173,7 @@ export default function HomePage() {
             <CardContent className="py-12 text-center space-y-6">
               <h2 className="font-bold text-3xl md:text-4xl text-balance">Ready to Join Our Community?</h2>
               <p className="text-lg max-w-2xl mx-auto opacity-90 leading-relaxed">
-                We welcome new students and families to become part of the Nuru Angavu family. Contact us today to learn
+                We welcome new students and families to become part of the Freedom and Victory family. Contact us today to learn
                 more about enrollment.
               </p>
               <Button size="lg" variant="secondary" asChild>

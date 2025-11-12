@@ -56,7 +56,7 @@ export default function ContactPage() {
               <div>
                 <h2 className="font-bold text-3xl mb-6">Get In Touch</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  We're here to answer your questions and provide information about Nuru Angavu Primary School. Feel
+                  We're here to answer your questions and provide information about Freedom and Victory Primary School. Feel
                   free to reach out through any of the following channels.
                 </p>
               </div>
@@ -71,7 +71,7 @@ export default function ContactPage() {
                       <div>
                         <h3 className="font-semibold mb-1">Visit Us</h3>
                         <p className="text-muted-foreground leading-relaxed">
-                          Nuru Angavu Primary School
+                          Freedom and Victory Primary School
                           <br />
                           Main Road, Next to Community Center
                           <br />
@@ -246,7 +246,7 @@ export default function ContactPage() {
                 <div className="text-center space-y-2">
                   <MapPin className="h-12 w-12 text-muted-foreground mx-auto" />
                   <p className="text-muted-foreground">Map would be displayed here</p>
-                  <p className="text-sm text-muted-foreground">Nuru Angavu Primary School, Nairobi</p>
+                  <p className="text-sm text-muted-foreground">Freedom and Victory Primary School, Nairobi</p>
                 </div>
               </div>
             </Card>

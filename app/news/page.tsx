@@ -10,7 +10,7 @@ const newsArticles = [
     author: "Mrs. Grace Mwangi",
     category: "Academics",
     excerpt:
-      "Nuru Angavu Primary School celebrates outstanding results in the 2024 national examinations, with 85% of students achieving above average marks.",
+      "Freedom and Victory Primary School celebrates outstanding results in the 2024 national examinations, with 85% of students achieving above average marks.",
     content:
       "We are thrilled to announce that our Class 6 students from 2024 achieved remarkable results in their national examinations. The dedication of our teachers, support from parents, and hard work of our students has paid off tremendously.",
   },

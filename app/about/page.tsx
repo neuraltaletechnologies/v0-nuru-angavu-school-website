@@ -8,7 +8,7 @@ export default function AboutPage() {
       <section className="bg-primary/5 py-16 md:py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center space-y-4">
-            <h1 className="font-bold text-4xl md:text-5xl text-balance">About Nuru Angavu Primary School</h1>
+            <h1 className="font-bold text-4xl md:text-5xl text-balance">About Freedom and Victory Primary School</h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Building a foundation for lifelong learning and character development
             </p>
@@ -24,7 +24,7 @@ export default function AboutPage() {
               <h2 className="font-bold text-3xl md:text-4xl">Our Story</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Nuru Angavu Primary School was established with a vision to provide quality education that transforms
+                  Freedom and Victory Primary School was established with a vision to provide quality education that transforms
                   lives and builds strong foundations for future success. Our name, which means "Light of Excellence,"
                   reflects our commitment to illuminating the path of learning for every child.
                 </p>

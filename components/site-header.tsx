@@ -27,10 +27,10 @@ export function SiteHeader() {
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
             <div className="relative h-12 w-12 flex-shrink-0">
-              <Image src="/logo.png" alt="Nuru Angavu Primary School Logo" fill className="object-contain" priority />
+              <Image src="/logo.png" alt="Freedom and Victory Primary School Logo" fill className="object-contain" priority />
             </div>
             <div className="flex flex-col">
-              <span className="font-bold text-lg leading-tight">Nuru Angavu</span>
+              <span className="font-bold text-lg leading-tight">Freedom and Victory</span>
               <span className="text-sm text-muted-foreground leading-tight">Primary School</span>
             </div>
           </Link>

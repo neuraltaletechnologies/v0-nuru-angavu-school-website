@@ -147,7 +147,7 @@ export default function StaffPage() {
               <h2 className="font-bold text-3xl md:text-4xl text-balance">Join Our Team</h2>
               <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto">
                 We're always looking for passionate educators who share our commitment to excellence. If you're
-                interested in joining the Nuru Angavu family, please send your CV and cover letter to
+                interested in joining the Freedom and Victory family, please send your CV and cover letter to
                 careers@nuruangavu.ac.ke
               </p>
             </CardContent>

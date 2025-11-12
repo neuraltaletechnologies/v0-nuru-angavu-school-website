@@ -11,10 +11,10 @@ export function SiteFooter() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="relative h-12 w-12 flex-shrink-0">
-              <Image src="/logo.png" alt="Nuru Angavu Primary School Logo" fill className="object-contain" priority />
+              <Image src="/logo.png" alt="Freedom and Victory Primary School Logo" fill className="object-contain" priority />
             </div>
               <div className="flex flex-col">
-                <span className="font-bold text-base leading-tight">Nuru Angavu</span>
+                <span className="font-bold text-base leading-tight">Freedom and Victory</span>
                 <span className="text-sm text-muted-foreground leading-tight">Primary School</span>
               </div>
             </div>
@@ -86,7 +86,7 @@ export function SiteFooter() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span>Nuru Angavu Primary School, Main Road</span>
+                <span>Freedom and Victory Primary School, Main Road</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 flex-shrink-0" />
@@ -112,7 +112,7 @@ export function SiteFooter() {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Nuru Angavu Primary School. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Freedom and Victory Primary School. All rights reserved.</p>
         </div>
       </div>
     </footer>

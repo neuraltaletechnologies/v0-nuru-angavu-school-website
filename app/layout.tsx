@@ -14,7 +14,7 @@ const _geistMono = V0_Font_Geist_Mono({ subsets: ['latin'], weight: ["100","200"
 const _sourceSerif_4 = V0_Font_Source_Serif_4({ subsets: ['latin'], weight: ["200","300","400","500","600","700","800","900"] })
 
 export const metadata: Metadata = {
-  title: "Nuru Angavu Primary School",
+  title: "Freedom and Victory Primary School",
   description: "Nurturing excellence and character in every child through quality education and holistic development.",
   generator: "v0.app",
   icons: {
