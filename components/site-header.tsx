@@ -4,7 +4,6 @@ import Link from "next/link"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import Image from "next/image"
 
 export function SiteHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -26,8 +25,8 @@ export function SiteHeader() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
-            <div className="relative h-12 w-12 flex-shrink-0">
-              <Image src="/logo.png" alt="Freedom and Victory Primary School Logo" fill className="object-contain" priority />
+            <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary/10 text-primary font-bold text-lg flex-shrink-0">
+              FV
             </div>
             <div className="flex flex-col">
               <span className="font-bold text-lg leading-tight">Freedom and Victory</span>

@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from "lucide-react"
-import Image from "next/image"
 
 export function SiteFooter() {
   return (
@@ -11,7 +10,9 @@ export function SiteFooter() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="relative h-12 w-12 flex-shrink-0">
-              <Image src="/logo.png" alt="Freedom and Victory Primary School Logo" fill className="object-contain" priority />
+                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-primary/10 text-primary font-bold text-lg flex-shrink-0">
+                  FV
+                </div>
             </div>
               <div className="flex flex-col">
                 <span className="font-bold text-base leading-tight">Freedom and Victory</span>
